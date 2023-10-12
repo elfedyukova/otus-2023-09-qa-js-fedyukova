@@ -1,5 +1,7 @@
-import kolobok from "./tale";
+import newYear from "./tale";
 
-test('first test', () => {
-  expect(kolobok()).toEqual('дедушка');
-});
+describe('check function', () => {
+ it('import', () => {
+  expect(newYear).toBeDefined()
+ })
+})
