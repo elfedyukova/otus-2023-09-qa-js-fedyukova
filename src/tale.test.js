@@ -1,7 +1,7 @@
 import newYear from "./tale";
 
 describe('check function', () => {
- it('import', () => {
+ test('check import', () => {
   expect(newYear).toBeDefined()
  })
 })
